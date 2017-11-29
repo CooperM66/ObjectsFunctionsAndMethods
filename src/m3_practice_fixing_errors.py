@@ -25,7 +25,7 @@ Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
 #    That is, make sure that (per the doc-strings) the program
 #    prints some calculated values and makes a Turtle do some things.
 #
-#  When complete Commit and Push your work (as always).
+#  When complete Commit and Push your work  (as always).
 #
 ########################################################################
 
