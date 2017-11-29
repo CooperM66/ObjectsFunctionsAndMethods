@@ -4,12 +4,12 @@ Demonstrates using (calling) FUNCTIONS and using (calling) METHODS:
   -- how they differ.
 
 Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+         their colleagues and Cooper McCullough.
+"""  # done: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 ########################################################################
 #
-# TODO: 2.
+# done: 2.
 #   READ this comment, ASKING QUESTIONS as needed to understand it.
 #
 #   For objects that are CONSTRUCTED, we use the DOT notation
@@ -80,6 +80,8 @@ def main():
     turtle = rg.SimpleTurtle('square')
     draw_many_squares(turtle, 3, 75, 15)
     turtle3()
+    try_methods()
+    jump_and_move_turtle()
 
     # When the TODOs ask you to test YOUR code, put YOUR tests here:
 
@@ -171,8 +173,18 @@ def try_methods():
       -- forward    50 units
       -- backward  100 units
     """
+
+    jim = rg.SimpleTurtle()
+    jim.pen = rg.Pen("brown",5)
+
+    jim.forward(150)
+    jim.left(90)
+    jim.forward(50)
+    jim.backward(100)
+
+
     ####################################################################
-    # TODO: 3. Implement this function, per its doc-string above.
+    # done: 3. Implement this function, per its doc-string above.
     #    Put a statement in   main   to test this function
     #    (by calling this function).
     ####################################################################
