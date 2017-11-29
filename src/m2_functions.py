@@ -33,6 +33,7 @@ def main():
     # A TurtleWindow works "behind the scenes" to enable Turtle movement
     window = rg.TurtleWindow()
 
+    turtle5()
     turtle1()
     turtle4()
     turtle3()
@@ -117,7 +118,28 @@ def turtle4():
     jimmy.draw_circle(40)
     jimmy.end_fill()
 
-#######################################################################
+
+def turtle5():
+    bob = rg.SimpleTurtle()
+    tim = rg.SimpleTurtle()
+    bob.pen = rg.Pen("orange",15)
+    tim.pen = rg.Pen("purple",15)
+
+    bob.forward(30)
+    bob.left(50)
+    bob.backward(70)
+
+    bob.begin_fill()
+    bob.draw_regular_polygon(5,20)
+    bob.end_fill()
+
+    tim.left(100)
+    tim.backward(50)
+    tim.right(40)
+
+
+
+##########################################################################
 #
 # done: 2.
 #   READ the code above.  Be sure you understand:
@@ -197,7 +219,7 @@ def turtle4():
 
 ########################################################################
 #
-# TODO: 5.
+# done: 5.
 #   The previous two TODOs IMPLEMENTED a function (TO DO 3)
 #   and TESTED that function (TO DO 4).
 #
