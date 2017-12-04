@@ -85,6 +85,7 @@ def circle_and_rectangle():
            75.0
            150.0
     """
+
     # ------------------------------------------------------------------
     # TODO: 3. Implement this function, per its doc-string above.
     #   -- ANY objects that meet the criteria are fine.
@@ -97,6 +98,7 @@ def circle_and_rectangle():
 
 
 window = rg.RoseWindow(500, 300)
+
 
 
 
@@ -127,6 +129,11 @@ def lines():
     # ------------------------------------------------------------------
     # TODO: 4. Implement and test this function.
     # ------------------------------------------------------------------
+
+
+window = rg.RoseWindow(500, 300)
+thinline = rg.Line(150, 200)
+thickline = rg.Line(50, 100)
 
 
 # ----------------------------------------------------------------------
